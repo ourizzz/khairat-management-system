@@ -62,12 +62,14 @@
             <p class="professional-admin-label">RENEWALS</p>
 
             <a href="{{ route('admin.renewals') }}"
-               class="professional-admin-menu-item {{ request()->routeIs('admin.renewals') ? 'active' : '' }}">
-                <svg viewBox="0 0 24 24">
-                    <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
-                </svg>
-                <span>Unchecked Renewals</span>
-            </a>
+                class="professional-admin-menu-item {{ request()->routeIs('admin.renewals') ? 'active' : '' }}">
+                    <span class="professional-admin-menu-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
+                        </svg>
+                    </span>
+                    <span>Unchecked Renewals</span>
+                </a>
 
             <p class="professional-admin-label">CLAIMS</p>
 
