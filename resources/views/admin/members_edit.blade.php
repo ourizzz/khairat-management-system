@@ -23,12 +23,12 @@
             <p class="em-label">MENU</p><a href="{{ route('admin.dashboard') }}" class="em-link"><span class="em-icon">▦</span>Dashboard</a>
             <p class="em-label">MEMBERS</p>
                 <a href="{{ route('admin.members') }}" class="em-link active"><span class="em-icon">●</span>Member List</a>
-                <a href="{{ route('admin.pending') }}" class="em-link"><span class="em-icon">!</span>New Registrations</a>
+                <a href="{{ route('admin.pending') }}" class="em-link"><span class="em-icon">!</span>Registrations List</a>
                 
                 <p class="em-label">RENEWALS</p>
                 <a href="{{ route('admin.renewals') }}" class="em-link">
-                    <span class="em-icon">!</span>Recent Renewals</a>
-            <p class="em-label">CLAIMS</p><a href="{{ route('admin.claims') }}" class="em-link"><span class="em-icon">■</span>Claim List</a><a href="{{ route('admin.claims.history') }}" class="em-link"><span class="em-icon">◷</span>Claim History</a>
+                    <span class="em-icon">!</span>Renewals List</a>
+            <p class="em-label">CLAIMS</p><a href="{{ route('admin.claims') }}" class="em-link"><span class="em-icon">!</span>Claim List</a><a href="{{ route('admin.claims.history') }}" class="em-link"><span class="em-icon">◷</span>Claim History</a>
         </nav>
         <div class="em-logout"><form method="POST" action="{{ route('logout') }}">@csrf<button type="submit">↪ &nbsp; Log Out</button></form></div>
     </aside>

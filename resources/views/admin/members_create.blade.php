@@ -151,17 +151,17 @@
             <p class="am-label">MEMBERS</p>
             <a href="{{ route('admin.members') }}" class="am-link active"><span class="am-icon">●</span>Member List</a>
             <a href="{{ route('admin.pending') }}" class="am-link">
-                <span class="am-icon">!</span>New Registrations
+                <span class="am-icon">!</span>Registrations List
             </a>
 
             <p class="am-label">RENEWALS</p>
 
             <a href="{{ route('admin.renewals') }}" class="am-link">
-                <span class="am-icon">!</span>Recent Renewals
+                <span class="am-icon">!</span>Renewals List
             </a>
 
             <p class="am-label">CLAIMS</p>
-            <a href="{{ route('admin.claims') }}" class="am-link"><span class="am-icon">■</span>Claim List</a>
+            <a href="{{ route('admin.claims') }}" class="am-link"><span class="am-icon">!</span>Claim List</a>
             <a href="{{ route('admin.claims.history') }}" class="am-link"><span class="am-icon">◷</span>Claim History</a>
         </nav>
 

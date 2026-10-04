@@ -28,17 +28,17 @@
             <p class="cd-label">MEMBERS</p>
             <a href="{{ route('admin.members') }}" class="cd-link"><span class="cd-icon">●</span>Member List</a>
             <a href="{{ route('admin.pending') }}" class="cd-link">
-                <span class="cd-icon">!</span>New Registrations
+                <span class="cd-icon">!</span>Registrations List
             </a>
 
             <p class="cd-label">RENEWALS</p>
 
             <a href="{{ route('admin.renewals') }}" class="cd-link">
-                <span class="cd-icon">!</span>Recent Renewals
+                <span class="cd-icon">!</span>Renewals List
             </a>
 
             <p class="cd-label">CLAIMS</p>
-            <a href="{{ route('admin.claims') }}" class="cd-link active"><span class="cd-icon">■</span>Claim List</a>
+            <a href="{{ route('admin.claims') }}" class="cd-link active"><span class="cd-icon">!</span>Claim List</a>
             <a href="{{ route('admin.claims.history') }}" class="cd-link"><span class="cd-icon">◷</span>Claim History</a>
         </nav>
         <div class="cd-logout">

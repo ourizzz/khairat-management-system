@@ -56,7 +56,7 @@
                         <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
                     </svg>
                 </span>
-                <span>New Registrations</span>
+                <span>Registrations List</span>
             </a>
 
             <p class="professional-admin-label">RENEWALS</p>
@@ -68,7 +68,7 @@
                         <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
                     </svg>
                 </span>
-                <span>Recent Renewals</span>
+                <span>Renewals List</span>
             </a>
 
             <p class="professional-admin-label">CLAIMS</p>
@@ -173,6 +173,7 @@
                         <tr>
                             <th>Member ID</th>
                             <th>Name</th>
+                            <th>IC Number</th>
                             <th>Phone</th>
                             <th>Status</th>
                             <th class="professional-actions-heading">Actions</th>
@@ -194,6 +195,10 @@
                                     <strong class="professional-member-name">
                                         {{ $member->user->name ?? '-' }}
                                     </strong>
+                                </td>
+
+                                <td>
+                                    {{ $member->ic_number ?? '-' }}
                                 </td>
 
                                 <td>
@@ -256,7 +261,7 @@
                         @empty
 
                             <tr>
-                                <td colspan="5">
+                                <td colspan="6">
                                     <div class="professional-member-empty">
                                         <h3>No Members Found</h3>
                                         <p>No member records match your current search or filter.</p>

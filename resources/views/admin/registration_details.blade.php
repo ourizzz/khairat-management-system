@@ -152,7 +152,7 @@
                     <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
                 </svg>
             </span>
-            <span>New Registrations</span></a>
+            <span>Registrations List</span></a>
 
         <p class="professional-admin-label">RENEWALS</p>
 
@@ -164,7 +164,7 @@
                     <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
                 </svg>
             </span>
-        <span>Recent Renewals</span></a>
+        <span>Renewals List</span></a>
 
 
         <p class="professional-admin-label">CLAIMS</p>
@@ -173,7 +173,7 @@
 
         <a href="{{ route('admin.claims') }}" class="professional-admin-menu-item"><span class="professional-admin-menu-icon">
         <svg viewBox="0 0 24 24">
-            <path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm1 7V3.5L18.5 9H15zm-4 9-3.5-3.5 1.41-1.41L11 15.17l4.59-4.59L17 12l-6 6z"/>
+            <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
         </svg>
     </span>
     
