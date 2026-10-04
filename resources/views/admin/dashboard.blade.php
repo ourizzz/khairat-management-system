@@ -165,20 +165,22 @@
                     </div>
                 </div>
                 <strong>{{ $pendingRenewals }}</strong>
-                <p>Renewals awaiting approval</p>
+                <p>Renewals awaiting review</p>
             </div>
 
             <div class="professional-admin-stat-card">
                 <div class="professional-admin-stat-top">
                     <span>Pending Claims</span>
+
                     <div class="professional-admin-stat-icon">
                         <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/>
+                            <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
                         </svg>
                     </div>
                 </div>
+
                 <strong>{{ $pendingClaims }}</strong>
-                <p>Claims awaiting review</p>
+                <p>Claims awaiting approval</p>
             </div>
 
             <div class="professional-admin-stat-card professional-admin-collection-card">
