@@ -442,9 +442,7 @@
 
                     </div>
 
-
-
-                    <div class="professional-document-field professional-document-wide">
+                    <div class="professional-document-field">
 
                         <label>Birth Certificate <span>(If Child)</span></label>
 
@@ -456,11 +454,33 @@
 
                         </label>
 
-                        <input type="file" id="birth_certificate" name="birth_certificate" accept=".pdf,.jpg,.jpeg,.png" class="claim-file-input" onchange="showClaimFileName(this)">
+                        <input type="file" id="birth_certificate" name="birth_certificate"
+                            accept=".pdf,.jpg,.jpeg,.png"
+                            class="claim-file-input"
+                            onchange="showClaimFileName(this)">
 
                     </div>
 
 
+                    <div class="professional-document-field">
+
+                        <label>Bank Statement</label>
+
+                        <label class="professional-upload-field" for="bank_statement">
+
+                            <span id="bank_statement_name">Attach your document here</span>
+
+                            <span class="professional-upload-icon">↥</span>
+
+                        </label>
+
+                        <input type="file" id="bank_statement" name="bank_statement"
+                            accept=".pdf,.jpg,.jpeg,.png"
+                            class="claim-file-input"
+                            onchange="showClaimFileName(this)"
+                            required>
+
+                    </div>
 
                 </div>
 

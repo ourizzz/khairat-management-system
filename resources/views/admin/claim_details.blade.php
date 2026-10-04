@@ -176,6 +176,23 @@
                     @endif
                 </div>
 
+                <div class="cd-doc">
+                    <span>Bank Statement</span>
+
+                    @if($claim->bank_statement_document)
+                        <a href="{{ route(
+                            'admin.claims.document',
+                            [$claim->claim_id, 'bank-statement']
+                        ) }}"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            View Document
+                        </a>
+                    @else
+                        <span class="cd-missing">Not provided</span>
+                    @endif
+                </div>
+
             </div>
 
         </section>

@@ -28,6 +28,7 @@ class ClaimController extends Controller
             'burial_permit' => 'nullable|file|mimes:pdf,jpg,jpeg,png|max:5120',
             'marriage_certificate' => 'nullable|file|mimes:pdf,jpg,jpeg,png|max:5120',
             'birth_certificate' => 'nullable|file|mimes:pdf,jpg,jpeg,png|max:5120',
+            'bank_statement' => 'required|file|mimes:pdf,jpg,jpeg,png|max:5120',
         ]);
 
         $member = auth()->user()->member;
@@ -78,6 +79,7 @@ class ClaimController extends Controller
             'burial_permit_document' => $storeDocument('burial_permit'),
             'marriage_certificate_document' => $storeDocument('marriage_certificate'),
             'birth_certificate_document' => $storeDocument('birth_certificate'),
+            'bank_statement_document' => $storeDocument('bank_statement'),
 
             'status' => 'Pending',
         ]);

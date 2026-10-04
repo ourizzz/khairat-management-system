@@ -801,6 +801,7 @@ class AdminController extends Controller
             'burial-permit' => $claim->burial_permit_document,
             'marriage-certificate' => $claim->marriage_certificate_document,
             'birth-certificate' => $claim->birth_certificate_document,
+            'bank-statement' => $claim->bank_statement_document,
         ];
 
         if (!array_key_exists($type, $documents)) {

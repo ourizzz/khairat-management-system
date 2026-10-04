@@ -30,11 +30,10 @@ class Claim extends Model
         'burial_permit_document',
         'marriage_certificate_document',
         'birth_certificate_document',
+        'bank_statement_document',
 
         'status',
         'claim_amount',
-        'bank_account',
-        'bank_name',
         'admin_verified_by',
         'verification_date',
         'rejection_remark',
