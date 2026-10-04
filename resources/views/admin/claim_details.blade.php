@@ -28,13 +28,13 @@
             <p class="cd-label">MEMBERS</p>
             <a href="{{ route('admin.members') }}" class="cd-link"><span class="cd-icon">●</span>Member List</a>
             <a href="{{ route('admin.pending') }}" class="cd-link">
-                <span class="cd-icon">!</span>Unchecked Registrations
+                <span class="cd-icon">!</span>New Registrations
             </a>
 
             <p class="cd-label">RENEWALS</p>
 
             <a href="{{ route('admin.renewals') }}" class="cd-link">
-                <span class="cd-icon">!</span>Unchecked Renewals
+                <span class="cd-icon">!</span>Recent Renewals
             </a>
 
             <p class="cd-label">CLAIMS</p>

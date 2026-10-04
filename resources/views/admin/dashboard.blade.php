@@ -60,7 +60,7 @@
                         <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
                     </svg>
                 </span>
-                <span>Unchecked Registrations</span>
+                <span>New Registrations</span>
             </a>
 
             <p class="professional-admin-label">RENEWALS</p>
@@ -72,7 +72,7 @@
                         <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
                     </svg>
                 </span>
-                <span>Unchecked Renewals</span>
+                <span>Recent Renewals</span>
             </a>
 
             <p class="professional-admin-label">CLAIMS</p>
@@ -144,7 +144,7 @@
 
             <div class="professional-admin-stat-card">
                 <div class="professional-admin-stat-top">
-                    <span>Unchecked Registrations</span>
+                    <span>New Registrations</span>
                     <div class="professional-admin-stat-icon">
                         <svg viewBox="0 0 24 24" aria-hidden="true">
                             <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
@@ -157,7 +157,7 @@
 
             <div class="professional-admin-stat-card">
                 <div class="professional-admin-stat-top">
-                    <span>Unchecked Renewals</span>
+                    <span>Recent Renewals</span>
                     <div class="professional-admin-stat-icon">
                         <svg viewBox="0 0 24 24">
                             <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>

@@ -151,13 +151,13 @@
             <p class="am-label">MEMBERS</p>
             <a href="{{ route('admin.members') }}" class="am-link active"><span class="am-icon">●</span>Member List</a>
             <a href="{{ route('admin.pending') }}" class="am-link">
-                <span class="am-icon">!</span>Unchecked Registrations
+                <span class="am-icon">!</span>New Registrations
             </a>
 
             <p class="am-label">RENEWALS</p>
 
             <a href="{{ route('admin.renewals') }}" class="am-link">
-                <span class="am-icon">!</span>Unchecked Renewals
+                <span class="am-icon">!</span>Recent Renewals
             </a>
 
             <p class="am-label">CLAIMS</p>

@@ -56,7 +56,7 @@
                         <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
                     </svg>
                 </span>
-                <span>Unchecked Registrations</span>
+                <span>New Registrations</span>
             </a>
 
             <p class="professional-admin-label">RENEWALS</p>
@@ -68,7 +68,7 @@
                             <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
                         </svg>
                     </span>
-                    <span>Unchecked Renewals</span>
+                    <span>Recent Renewals</span>
                 </a>
 
             <p class="professional-admin-label">CLAIMS</p>

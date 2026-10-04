@@ -56,7 +56,7 @@
                         <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
                     </svg>
                 </span>
-                <span>Unchecked Registrations</span>
+                <span>New Registrations</span>
             </a>
 
             <p class="professional-admin-label">RENEWALS</p>
@@ -68,7 +68,7 @@
                         <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
                     </svg>
                 </span>
-                <span>Unchecked Renewals</span>
+                <span>Recent Renewals</span>
             </a>
 
             <p class="professional-admin-label">CLAIMS</p>
@@ -112,8 +112,8 @@
         <header class="professional-admin-page-header">
             <div>
                 <p class="professional-admin-eyebrow">RENEWAL MANAGEMENT</p>
-                <h1>Unchecked Renewals</h1>
-                <p>Review successful membership renewals that have not been checked by the administrator.</p>
+                <h1>Recent Renewals</h1>
+                <p>View and check recent successful membership renewals.</p> 
             </div>
         </header>
 
@@ -188,7 +188,7 @@
                             <tr>
                                 <td colspan="6">
                                     <div class="professional-renewal-empty">
-                                        <h3>No Unchecked Renewals</h3>
+                                        <h3>No Recent Renewals</h3>
                                         <p>New successful renewals that have not been checked will appear here.</p>
                                     </div>
                                 </td>

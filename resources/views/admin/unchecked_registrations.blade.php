@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unchecked Registrations - Khairat Management System</title>
+    <title>New Registrations - Khairat Management System</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,7 +56,7 @@
                         <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
                     </svg>
                 </span>
-                <span>Unchecked Registrations</span>
+                <span>New Registrations</span>
             </a>
 
             <p class="professional-admin-label">RENEWALS</p>
@@ -68,7 +68,7 @@
                         <path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2zm1 11h-2V6h2zm0 4h-2v-2h2z"/>
                     </svg>
                 </span>
-                <span>Unchecked Renewals</span>
+                <span>Recent Renewals</span>
             </a>
 
             <p class="professional-admin-label">CLAIMS</p>
@@ -113,7 +113,7 @@
         <header class="professional-admin-page-header">
             <div>
                 <p class="professional-admin-eyebrow">MEMBER MANAGEMENT</p>
-                <h1>Unchecked Registrations</h1>
+                <h1>New Registrations</h1>
                 <p>Review new Khairat membership registrations that have not been checked by the administrator.</p>
             </div>
         </header>
@@ -205,7 +205,7 @@
                             <tr>
                                 <td colspan="5">
                                     <div class="professional-pending-empty">
-                                        <h3>No Unchecked Registrations</h3>
+                                        <h3>No Recent Registrations</h3>
                                         <p>New registrations that have not been checked will appear here.</p>
                                     </div>
                                 </td>
