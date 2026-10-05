@@ -299,7 +299,7 @@
 
                         <label>Relationship</label>
 
-                        <select name="relationship" required>
+                        <select name="relationship" id="relationship" required>
                             <option value="" selected disabled>Select relationship</option>
                             <option value="HUSBAND">Husband</option>
                             <option value="WIFE">Wife</option>
@@ -507,6 +507,33 @@
 <script>
 
 const memberClaimForm = document.getElementById('memberClaimForm');
+
+const claimTypeRadios = document.querySelectorAll('input[name="claim_type"]');
+const relationshipSelect = document.getElementById('relationship');
+
+claimTypeRadios.forEach(radio => {
+    radio.addEventListener('change', function () {
+
+        if (this.value === 'member') {
+            relationshipSelect.innerHTML = `
+                <option value="SELF" selected>Self</option>
+            `;
+            relationshipSelect.style.pointerEvents = 'none';
+            relationshipSelect.style.backgroundColor = '#f5f5f5';
+
+        } else if (this.value === 'dependant') {
+            relationshipSelect.innerHTML = `
+                <option value="" selected disabled>Select relationship</option>
+                <option value="HUSBAND">Husband</option>
+                <option value="WIFE">Wife</option>
+                <option value="CHILD">Child</option>
+            `;
+            relationshipSelect.style.pointerEvents = 'auto';
+            relationshipSelect.style.backgroundColor = '';
+        }
+
+    });
+});
 
 memberClaimForm.addEventListener('input', function (event) {
     const field = event.target;

@@ -41,7 +41,6 @@ class Member extends Model
 
         // Admin verification
         'admin_verified_by',
-        'admin_signature',
     ];
 
     protected $casts = [

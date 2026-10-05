@@ -20,7 +20,7 @@ class ClaimController extends Controller
             'death_date' => 'required|date',
             'place_of_death' => 'required|string|max:255',
             'cause_of_death' => 'nullable|string|max:255',
-            'relationship' => 'required|string|max:100',
+            'relationship' => 'required|in:SELF,HUSBAND,WIFE,CHILD',
             'death_cert_no' => 'required|string|max:100',
 
             'member_ic' => 'nullable|file|mimes:pdf,jpg,jpeg,png|max:5120',
