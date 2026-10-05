@@ -936,6 +936,14 @@ class AdminController extends Controller
             'renewal_checked_at' => now(),
         ]);
 
+        $member = $payment->member;
+
+        if ($member) {
+            $member->update([
+                'membership_status' => 'Active',
+            ]);
+        }
+
         return redirect()
             ->route('admin.renewals')
             ->with('success', 'Renewal marked as checked successfully.');
